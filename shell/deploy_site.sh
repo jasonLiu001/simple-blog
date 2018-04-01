@@ -2,7 +2,7 @@
 # 切换到项目根目录
 cd /home/github/simple-blog;
 # 编译项目
-mvn package;
+mvn clean package;
 # 停止tomcat服务
 # sh /home/apache-tomcat-9.0.6/bin/shutdown.sh;
 # 删除simplebolg目录及文件
