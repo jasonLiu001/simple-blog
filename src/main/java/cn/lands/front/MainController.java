@@ -35,7 +35,7 @@ public class MainController extends BaseController {
      *
      */
     public void index() {
-        renderJsp("index.html");
+        renderJsp("front/index.html");
     }
 
 }
