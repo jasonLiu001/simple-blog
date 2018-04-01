@@ -30,12 +30,4 @@ public class MainController extends BaseController {
      * 日志记录器
      */
     public static final Logger LOG = LoggerFactory.getLogger(MainController.class);
-
-    /**
-     *
-     */
-    public void index() {
-        renderJsp("front/index.html");
-    }
-
 }

@@ -48,8 +48,6 @@ public class AppConfig extends JFinalConfig {
 
     @Override
     public void configRoute(Routes me) {
-        //设置默认主页路由
-        me.add("/index.html", cn.lands.front.MainController.class);
         // 后端路由
         me.add(new AdminRoutes());
         // 前端路由
