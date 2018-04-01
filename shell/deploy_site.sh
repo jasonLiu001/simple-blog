@@ -1,4 +1,6 @@
 #!/bin/bash
+# 切换到项目根目录
+cd /home/github/simple-blog;
 # 编译项目
 mvn package;
 # 停止tomcat服务
